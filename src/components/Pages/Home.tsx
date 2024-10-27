@@ -21,7 +21,7 @@ const Home = () => {
               Consequuntur molestiae non voluptatum enim minus. Sdolao
             </p>
           </div>
-          <Link to="/">
+          <Link to="/user">
             <p className="bg-primary text-center text-white w-full rounded-full p-4 shadow">
               Get Started
             </p>
