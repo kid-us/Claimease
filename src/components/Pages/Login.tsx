@@ -48,7 +48,7 @@ const Login = () => {
             <p className="text-2xl font-bold mb-5">Sign up</p>
 
             {/* Username */}
-            <div className="lg:bg-primary bg-white rounded-md overflow-hidden mb-2 grid grid-cols-12 h-14 shadow border border-gray-300">
+            <div className="lg:bg-primary bg-white rounded-md overflow-hidden mb-2 grid grid-cols-12 h-14 shadow border border-gray-400">
               <div className="col-span-2">
                 <p className="bi-person-fill text-2xl text-center pt-3"></p>
               </div>
@@ -69,7 +69,7 @@ const Login = () => {
             )}
 
             {/* Password */}
-            <div className="lg:bg-primary bg-white rounded-md mb-2 grid grid-cols-12 h-14 shadow border border-gray-300">
+            <div className="lg:bg-primary bg-white rounded-md mb-2 grid grid-cols-12 h-14 shadow border border-gray-400">
               <div className="col-span-2">
                 <p className="bi-lock-fill text-2xl text-center pt-3"></p>
               </div>
@@ -101,7 +101,10 @@ const Login = () => {
             )}
 
             <p className="text-sm text-end text-white">
-              <Link to="/request" className="font-poppins text-blue-600">
+              <Link
+                to="/forgot-password"
+                className="font-poppins text-blue-600"
+              >
                 Forgot Password?
               </Link>
             </p>
@@ -118,10 +121,7 @@ const Login = () => {
             </p>
             <p className="text-xs mt-5 text-gray-600">
               By clicking the Sign In button below, you agree to the our terms
-              of service and acknowledge the{" "}
-              <Link to="/privacy-policy" className="text-blue-600 font-bold">
-                Privacy Policy.
-              </Link>
+              of service.
             </p>
           </form>
         </div>
