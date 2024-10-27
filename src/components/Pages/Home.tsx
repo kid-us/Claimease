@@ -18,7 +18,7 @@ const Home = () => {
 
             <p className="mt-4 text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur molestiae non voluptatum enim minus.
+              Consequuntur molestiae non voluptatum enim minus. Sdolao
             </p>
           </div>
           <Link to="/">
