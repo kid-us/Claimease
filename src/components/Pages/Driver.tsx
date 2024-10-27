@@ -22,7 +22,7 @@ const Driver = () => {
       {/* Chat */}
       <button className="fixed z-50 bottom-5 right-4 bi-chat-right-text-fill bg-primary text-white w-10 h-10 rounded-full shadow"></button>
 
-      <div className="bg-secondary shadow rounded-t rounded-[50px] flex justify-between p-6">
+      <div className="bg-secondary shadow rounded-t rounded-[50px] flex justify-between p-6 py-10">
         <div>
           <img
             src={user}
