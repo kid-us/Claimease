@@ -11,7 +11,7 @@ const users: Users[] = [
   { id: 1, icon: "bi-car-front-fill", name: "Driver" },
   { id: 2, icon: "bi-tools", name: "Garage" },
   { id: 1, icon: "bi-briefcase-fill", name: "Assessor" },
-  { id: 1, icon: "bi-umbrella-fill", name: "Admin" },
+  { id: 1, icon: "bi-umbrella-fill", name: "Insurance" },
 ];
 
 const User = () => {
