@@ -5,6 +5,7 @@ import User from "./components/Pages/User";
 import Login from "./components/Pages/Login";
 import Register from "./components/Pages/Register";
 import ForgotPassword from "./components/Pages/ForgotPassword";
+import Driver from "./components/Pages/Driver";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/driver" element={<Driver />} />
       </Routes>
     </>
   );
