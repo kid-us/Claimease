@@ -45,7 +45,7 @@ const Login = () => {
             className="lg:bg-white lg:p-10 pb-10 px-6 rounded-r-xl overflow-hidden"
             onSubmit={handleSubmit(onSubmit)}
           >
-            <p className="text-2xl font-bold mb-10">Sign up</p>
+            <p className="text-2xl font-bold mb-5">Sign up</p>
 
             {/* Username */}
             <div className="lg:bg-primary bg-white rounded-md overflow-hidden mb-2 grid grid-cols-12 h-14 shadow border border-gray-300">
