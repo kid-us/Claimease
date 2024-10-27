@@ -24,7 +24,7 @@ const Claim = () => {
 
   return (
     <div className="mt-6">
-      <div className="flex justify-between">
+      <div className="flex justify-between my-7">
         <p
           onClick={() => setActive("request")}
           className={`text-sm ${active !== "request" && "text-blue-500"}`}
@@ -43,7 +43,7 @@ const Claim = () => {
       <div className="mt-5">
         {active === "request" &&
           request.map((r) => (
-            <div key={r.id} className="rounded-lg bg-secondary shadow mb-3 p-5">
+            <div key={r.id} className="rounded-lg bg-secondary shadow mb-5 p-6">
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <p className="text-sm text-gray-700">Claim Id</p>
