@@ -43,7 +43,10 @@ const Claim = () => {
       <div className="mt-5">
         {active === "request" &&
           request.map((r) => (
-            <div key={r.id} className="rounded-lg bg-secondary shadow mb-5 p-6">
+            <div
+              key={r.id}
+              className="rounded-lg bg-secondary shadow shadow-gray-500 mb-5 p-6"
+            >
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <p className="text-sm text-gray-700">Claim Id</p>

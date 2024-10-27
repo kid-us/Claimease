@@ -18,7 +18,7 @@ const Garage = () => {
     <>
       <p className="my-5 text-xl">List of Garages</p>
       {garages.map((g) => (
-        <div className="grid grid-cols-2 shadow bg-secondary mb-4 p-5 rounded-lg">
+        <div className="grid grid-cols-2 shadow shadow-gray-500 bg-secondary mb-4 p-5 rounded-lg">
           <div>
             <img src={g.img} alt="Img" className="w-14" />
           </div>
