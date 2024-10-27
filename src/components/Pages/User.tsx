@@ -28,7 +28,7 @@ const User = () => {
           </p>
 
           {users.map((u) => (
-            <Link key={u.id} to="/">
+            <Link key={u.id} to="/login">
               <div className="grid grid-cols-4 justify-items-center bg-primary text-center text-white w-full rounded-lg p-4 shadow mb-4 ps-20">
                 <div>
                   <p className={`${u.icon} text-2xl text-end`}></p>

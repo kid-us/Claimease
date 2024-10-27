@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import { car, logo } from "../../assets";
+import Button from "../Button/Button";
 
 const Home = () => {
   return (
@@ -21,11 +21,9 @@ const Home = () => {
               Consequuntur molestiae non voluptatum enim minus. Sdolao
             </p>
           </div>
-          <Link to="/user">
-            <p className="bg-primary text-center text-white w-full rounded-full p-4 shadow">
-              Get Started
-            </p>
-          </Link>
+          <div>
+            <Button borderR="rounded-full" label="Get Started" path="user" />
+          </div>
         </div>
       </div>
     </div>
