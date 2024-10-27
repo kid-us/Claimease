@@ -22,7 +22,12 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <Button borderR="rounded-full" label="Get Started" path="user" />
+            <Button
+              type="link"
+              borderR="rounded-full"
+              label="Get Started"
+              path="user"
+            />
           </div>
         </div>
       </div>

@@ -48,7 +48,7 @@ const Login = () => {
             <p className="text-2xl font-bold mb-10">Sign up</p>
 
             {/* Username */}
-            <div className="lg:bg-primary bg-white rounded-md overflow-hidden lg:mb-4 mb-4 grid grid-cols-12 h-14 shadow border border-gray-300">
+            <div className="lg:bg-primary bg-white rounded-md overflow-hidden mb-2 grid grid-cols-12 h-14 shadow border border-gray-300">
               <div className="col-span-2">
                 <p className="bi-person-fill text-2xl text-center pt-3"></p>
               </div>
@@ -63,13 +63,13 @@ const Login = () => {
               </div>
             </div>
             {errors.username && (
-              <p className="text-xs mb-5 text-red-700 rounded ps-1">
+              <p className="text-xs text-red-700 rounded mb-2">
                 {errors.username.message}
               </p>
             )}
 
             {/* Password */}
-            <div className="lg:bg-primary bg-white rounded-md lg:mb-4 mb-4 grid grid-cols-12 h-14 shadow border border-gray-300">
+            <div className="lg:bg-primary bg-white rounded-md mb-2 grid grid-cols-12 h-14 shadow border border-gray-300">
               <div className="col-span-2">
                 <p className="bi-lock-fill text-2xl text-center pt-3"></p>
               </div>
@@ -95,7 +95,7 @@ const Login = () => {
             </div>
 
             {errors.password && (
-              <p className="text-xs mb-5 text-red-700 rounded ps-1">
+              <p className="text-xs text-red-700 rounded mb-2">
                 {errors.password.message}
               </p>
             )}
@@ -107,7 +107,7 @@ const Login = () => {
             </p>
 
             <div className="mt-8 text-center">
-              <Button borderR="rounded-lg" path="/" label="Sign In" />
+              <Button borderR="rounded-lg" type="button" label="Sign In" />
             </div>
 
             <p className="mt-5 text-sm font-poppins">
